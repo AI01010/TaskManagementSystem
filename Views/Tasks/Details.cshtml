@@ -1,0 +1,37 @@
+@model TaskManagementSystem.Models.Task
+
+@{
+    ViewData["Title"] = "Task Details";
+}
+
+<h1>Task Details</h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Title</dt>
+        <dd class="col-sm-10">@Model.Title</dd>
+        
+        <dt class="col-sm-2">Description</dt>
+        <dd class="col-sm-10">@Model.Description</dd>
+        
+        <dt class="col-sm-2">Due Date</dt>
+        <dd class="col-sm-10">@Model.DueDate.ToString("MM/dd/yyyy")</dd>
+        
+        <dt class="col-sm-2">Priority</dt>
+        <dd class="col-sm-10">@Model.Priority</dd>
+        
+        <dt class="col-sm-2">Status</dt>
+        <dd class="col-sm-10">@Model.Status</dd>
+        
+        <dt class="col-sm-2">Assigned To</dt>
+        <dd class="col-sm-10">@Model.AssignedTo</dd>
+        
+        <dt class="col-sm-2">Created At</dt>
+        <dd class="col-sm-10">
+        <dd class="col-sm-10">@Model.CreatedAt.ToString("MM/dd/yyyy HH:mm")</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-info">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
