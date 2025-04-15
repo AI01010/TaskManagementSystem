@@ -1,0 +1,9 @@
+C:\Saad\Programming\TaskManagementSystem\obj\Debug\net8.0\TaskManagementSystem.csproj.AssemblyReference.cache
+C:\Saad\Programming\TaskManagementSystem\obj\Debug\net8.0\TaskManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Saad\Programming\TaskManagementSystem\obj\Debug\net8.0\TaskManagementSystem.AssemblyInfoInputs.cache
+C:\Saad\Programming\TaskManagementSystem\obj\Debug\net8.0\TaskManagementSystem.AssemblyInfo.cs
+C:\Saad\Programming\TaskManagementSystem\obj\Debug\net8.0\TaskManagementSystem.csproj.CoreCompileInputs.cache
+C:\Saad\Programming\TaskManagementSystem\obj\Debug\net8.0\TaskManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Saad\Programming\TaskManagementSystem\obj\Debug\net8.0\TaskManagementSystem.RazorAssemblyInfo.cache
+C:\Saad\Programming\TaskManagementSystem\obj\Debug\net8.0\TaskManagementSystem.RazorAssemblyInfo.cs
+C:\Saad\Programming\TaskManagementSystem\obj\Debug\net8.0\TaskManagementSystem.sourcelink.json
