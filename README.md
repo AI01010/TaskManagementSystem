@@ -14,15 +14,19 @@ Make sure you have the following installed:
 
 Open a terminal and create a new directory for your project:
 bash - 
+
 $ mkdir TaskManagementSystem
+
 $ cd TaskManagementSystem
 
 Create a new ASP.NET Core MVC project:
 bash -  
+
 $ dotnet new mvc
 
 Install the required package:
 bash -  
+
 $ dotnet add package Microsoft.EntityFrameworkCore.InMemory
 
 
@@ -35,6 +39,7 @@ Copy and paste the code from the artifact into each corresponding file.
 
 Open VS Code:
 bash -
+
 $ code .
 
 VS Code will prompt you to add required assets for build and debug. Click "Yes".
@@ -44,10 +49,12 @@ VS Code will prompt you to add required assets for build and debug. Click "Yes".
 Open the integrated terminal in VS Code (Ctrl+` or View > Terminal).
 Build the project:
 bash -
+
 $ dotnet build
 
 Run the application:
 bash -
+
 $ dotnet run
 
 Open a web browser and navigate to:
