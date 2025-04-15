@@ -6,23 +6,22 @@ Follow these steps to set up and run the Task Management System:
 1. Prerequisites
 Make sure you have the following installed:
 
-.NET 7.0 SDK or higher
-Visual Studio Code
-C# extension for VS Code
+- .NET 7.0 SDK or higher
+- Visual Studio Code
+- C# extension for VS Code
 
 2. Create the Project Structure
 
 Open a terminal and create a new directory for your project:
-bashmkdir TaskManagementSystem
-cd TaskManagementSystem
+bash - 
+$ mkdir TaskManagementSystem
+$ cd TaskManagementSystem
 
 Create a new ASP.NET Core MVC project:
-
 bash -  
 $ dotnet new mvc
 
 Install the required package:
-
 bash -  
 $ dotnet add package Microsoft.EntityFrameworkCore.InMemory
 
@@ -35,9 +34,7 @@ Copy and paste the code from the artifact into each corresponding file.
 4. Open the Project in VS Code
 
 Open VS Code:
-
 bash -
-
 $ code .
 
 VS Code will prompt you to add required assets for build and debug. Click "Yes".
@@ -46,15 +43,11 @@ VS Code will prompt you to add required assets for build and debug. Click "Yes".
 
 Open the integrated terminal in VS Code (Ctrl+` or View > Terminal).
 Build the project:
-
 bash -
-
 $ dotnet build
 
 Run the application:
-
 bash -
-
 $ dotnet run
 
 Open a web browser and navigate to:
