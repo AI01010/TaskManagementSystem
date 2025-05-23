@@ -83,3 +83,5 @@ Create, edit, view details, and delete operations for tasks
 Form validation
 In-memory database for easy testing (no database setup required)
 Responsive Bootstrap UI
+
+Don't deploy on Vercel!
